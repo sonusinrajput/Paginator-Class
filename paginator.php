@@ -117,7 +117,7 @@ class Paginator {
         	}    
         	//loop through page numbers
         	for($i = $start; $i <= $end; $i++){
-					echo '<li><a href="'.$this->_link .'?current='.$i.'"';
+					echo '<li><a href="'.$this->_link .'?current='.$i.'"';// you can write SQL query heare to gewt data from database....
 					if($i==$this->currentPage) echo "class='current'";
 					echo '>'.$i.'</a></li>';
 			}        	
